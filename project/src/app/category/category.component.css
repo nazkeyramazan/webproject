@@ -1,0 +1,33 @@
+.product-detail {
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0px 10px 20px 10px;
+  }
+  
+  .products {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
+  div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display: flex;
+    background-color: pink;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    display:flex;
+    flex-direction: column;
+  }
+
+  #more {display: none;}

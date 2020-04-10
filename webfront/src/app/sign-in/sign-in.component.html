@@ -1,0 +1,23 @@
+
+<body>
+  <form>
+
+      <div class="segment">
+        <h1>Войти</h1>
+      </div>
+
+      <label>
+        <input type="text" placeholder="Имя пользователя или почта"/>
+      </label>
+
+      <label>
+       <input type="password" placeholder="Пароль"/>
+      </label>
+
+    <button [routerLink]="['']" class="red" type="button" ><i class="fas fa-lock-open"></i> Войти </button>
+
+    <button [routerLink]="['/sign-up']" class="new" type="button">Создать аккаунт</button>
+
+  </form>
+
+</body>

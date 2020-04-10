@@ -1,0 +1,73 @@
+body, input, button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: cadetblue;
+  }
+  
+  h1 {
+    font-size: 45px;
+    color: #BABECC;
+    text-shadow: 1px 1px 1px white;
+    font-weight: lighter;
+  }
+  
+  form {
+    padding: 1px;
+    width: 320px;
+    margin: 0 auto;
+  }
+  
+  .segment {
+    text-align: center;
+  }
+  
+  button, input {
+    border: 0;
+    outline: 0;
+    border-radius: 320px;
+    padding: 15px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 white;
+  }
+  
+  label {
+    width: 90%;
+    margin-bottom: 3%;
+  }
+  
+  input {
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px white;
+    width: 90%;
+    margin-bottom: 3%;
+  }
+  
+  input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px white;
+  }
+  
+  button {
+    color: #61677C;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+  }
+  
+  button:hover {
+    box-shadow: -2px -2px 5px white, 2px 2px 5px #BABECC;
+  }
+  
+  button:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px white;
+  }
+  
+  button.red {
+    color: #AE1100;
+  }
+  
+  button.new {
+    margin-top: 25%;
+  }
+  

@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="container"  *ngIf="product">
+      
+   
+      <img src="{{product.image}}">
+     <div class="container2"> 
+      <h1>
+        {{ product.name }}
+      </h1>
+      
+        <h2>Описаниe</h2> 
+        <p>{{ product.description }}
+      </p>
+      <h4> Цена: {{ product.price }} тенге</h4>
+       <br>
+       <h5>Подробнее:{{product.link}}</h5>
+  
+    <button (click)="addToCart(product)">Купить</button>
+    
+    <button id="btn_back">
+      <a id="word_back" 
+      routerLink="/products"> Back </a> </button>
+  
+  
+    </div>
+  </div>
+
+
+  
+</div>
+ 

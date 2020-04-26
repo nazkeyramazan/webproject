@@ -1,0 +1,7 @@
+<div class="sidenav" >
+  <div class="button" *ngFor="let category of categories">
+    <!-- <img src="{{category.image}}" width="225" height="150"> -->
+    <a  routerLink="/category/{{category.id}}" style="color: white"> {{category.id}}.{{category.name}} </a>
+  </div>
+    
+</div>

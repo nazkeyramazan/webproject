@@ -1,0 +1,46 @@
+<!-- <div *ngFor="let category of categories"> -->
+  <div>
+   <p> category books</p>
+   <div class="button" *ngIf="let category of categories">
+    <!-- <img src="{{category.image}}" width="225" height="150"> -->
+     {{category.id}}.{{category.name}} 
+  </div>
+    <div *ngFor="let product of products">
+      <div class="polaroid">
+        <img src="{{product.image}}" width="300" height="400">
+
+        <div class="container">
+         <h3 style="font-size: 25px;">
+            <a routerLink="/products/{{product.id}}" [title]="product.name + ' details'">
+                     {{ product.name }}
+             </a>
+          </h3>
+        <p *ngIf="product.description" style="font-size: 25px;"  >
+          Описание :  {{ product.description }}
+         </p>
+        <p *ngIf="product.price" style="font-size: 25px;">  
+          Цена : {{ product.price }} ₸
+        </p>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- 
+<div class="body_color">
+  <div  id="products_word" *ngFor="let product of products">
+    {{product.categoryName}}
+  </div>
+<div class="products_block">
+  <div *ngFor="let product of products">
+  <div class="product_div">
+  <div class="main_image">
+<a routerLink="/products/{{product.id}}"><img  src="{{product.images}}"></a>
+</div>
+    <button id="price">{{product.price}}</button> 
+    <button id="share_button"> 
+      <a  href = "https://api.whatsapp.com/send?phone=77079344712&text={{product.name     }}        {{product.originalLink}}"  style="color: black"> Share</a>
+    </button>
+</div>
+</div>  
+</div>
+</div> -->

@@ -1,0 +1,68 @@
+/*div {
+  background-color: paleturquoise;
+}*/
+
+ div.polaroid {
+  width: 325px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-start; 
+  flex-wrap: wrap;
+  margin-left: 0;
+
+}
+.product-item {
+  text-align: center;
+  border: 1px blueviolet;
+  margin-left: 0;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 0px 10px 20px 10px;
+  width: 33.3%; 
+  min-width: 300px;
+}
+
+
+ .products {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: powderblue;
+} 
+
+h1{
+  color: blue;
+  text-align: center;
+}
+
+
+.button-container {
+
+  padding: 1.5em;
+  width: 325px;
+}
+
+.button-fancy {
+	background-color: #23b83c;
+	border: 2px solid #23b83c;
+	color: whitesmoke;
+	padding: 1em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	display: inline-block;
+  width: auto;
+  margin-right: 7px;
+	border-radius: 5px;
+  box-shadow: 3px 3px 8px 0 #000; /* h-offset v-offset blur spread color */
+  margin-left: 0;
+}
+ button{
+   width: 30px;
+ }
